@@ -1,0 +1,102 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Seção "Sobre a Loja" */
+#sobre-a-loja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.coluna-imagem, .coluna-texto {
+    flex: 1;
+    padding: 20px;
+}
+
+.coluna-imagem img {
+    max-width: 100%;
+}
+
+/* Seção de Produtos */
+#produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.produto {
+    width: 23%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.produto img {
+    max-width: 100%;
+}
+
+.preco {
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.botao-adicionar {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao-adicionar:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
